@@ -129,7 +129,7 @@ var i = 0;
 var txt1 =
   "Bảo Ngọc ngủ sớm nhé đừng thức khuya nữa! <Gán mau khỏi bệnh nhe, Chúc Bảo Ngọc ngủ ngon kkk";
 var speed = 50;
-document.getElementById("text1").style.fontSize = "24px"; // Tăng cỡ chữ lên 48px
+document.getElementById("text1").style.fontSize = "8px"; // Tăng cỡ chữ lên 48px
 typeWriter();
 function typeWriter() {
   if (i < txt1.length) {
