@@ -61,7 +61,7 @@ let g = new THREE.BufferGeometry().setFromPoints(pts);
 g.setAttribute("sizes", new THREE.Float32BufferAttribute(sizes, 1));
 g.setAttribute("shift", new THREE.Float32BufferAttribute(shift, 4));
 let m = new THREE.PointsMaterial({
-  size: 0.1,
+  size: 0.4,
   transparent: true,
   blending: THREE.AdditiveBlending,
   onBeforeCompile: (shader) => {
